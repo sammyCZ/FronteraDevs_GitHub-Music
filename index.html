@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>GitHub Activity Musicizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="header">
+    <h1>GitHub Activity Musicizer</h1>
+    <p>Turn repository activity into music</p>
+
+    <div id="controls">
+      <input
+        id="repo"
+        placeholder="owner/repo (e.g. facebook/react)"
+      />
+      <button id="start">Play</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="viz-container">
+      <div id="canvas"></div>
+    </div>
+  </main>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <script src="https://unpkg.com/tone@14.7.77/build/Tone.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>
