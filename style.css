@@ -16,8 +16,6 @@ body {
 #header h1 {
   margin: 0;
   font-size: 1.8rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
 }
 
 #header p {
@@ -37,14 +35,8 @@ input {
   width: 260px;
   border-radius: 999px;
   border: none;
-  outline: none;
   background: #262626;
   color: white;
-  font-size: 0.95rem;
-}
-
-input::placeholder {
-  color: #9a9a9a;
 }
 
 button {
@@ -53,9 +45,7 @@ button {
   border: none;
   cursor: pointer;
   background: #ff9acb;
-  color: #1b1b1b;
   font-weight: 600;
-  transition: background 0.2s ease;
 }
 
 button:hover {
