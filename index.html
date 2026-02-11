@@ -9,20 +9,27 @@
 
   <header id="header">
     <h1>GitHub Activity Musicizer</h1>
-    <p>Turn repository activity into music</p>
+    <p>Turn repository activity into live music</p>
 
     <div id="controls">
       <input
         id="repo"
         placeholder="owner/repo (e.g. facebook/react)"
       />
-      <button id="start">Play</button>
+      <button id="start">Go Live</button>
     </div>
   </header>
 
   <main>
-    <div id="viz-container">
-      <div id="canvas"></div>
+    <div id="app">
+      <div id="viz-container">
+        <div id="canvas"></div>
+      </div>
+
+      <aside id="activity-feed">
+        <h3>Live Activity</h3>
+        <ul id="events"></ul>
+      </aside>
     </div>
   </main>
 
